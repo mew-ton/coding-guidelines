@@ -1,0 +1,35 @@
+---
+trigger: always_on
+---
+# Documentation Guidelines (Ref: Kex)
+
+This project uses [Kex](https://github.com/mew-ton/kex) for knowledge management.
+
+**PRIMARY DIRECTIVE (STRICT):**
+Before writing, editing, or restructuring any documentation, you **MUST** first search the knowledge base using **Kex MCP** for style guides and conventions.
+
+**The "Search Signal" Protocol:**
+1.  **ACKNOWLEDGE**: When you receive a documentation task, your *very first* reaction must be "I need to check the style guidelines."
+2.  **SEARCH**: Execute `search_documents` immediately.
+    *   **Scope Strategy**: Set the scope based on the **Technology** or **Domain** of your current task.
+        *   *Example*: If writing Kex docs, use `["kex"]`. If writing API docs, use `["api"]`.
+    *   **Keyword Strategy**: Combine keywords from these 3 dimensions:
+        *   **Object**: Target entity (e.g., "frontmatter", "filename")
+        *   **Symptom**: Context/Problem (e.g., "missing", "invalid")
+        *   **Concept**: Quality/Goal (e.g., "consistency", "style")
+    *   **Critical:** If `kex` tools are unavailable or fail, **STOP** and report this to the user.
+    *   **Critical:** If `kex` tools are unavailable or fail, **STOP** and report this to the user.
+3.  **VERIFY**: You are forbidden from proceeding until you have read relevant guidelines.
+
+**Adding New Knowledge**
+1.  **Search existing structure** to understand where new files belong.
+2.  **Check for conflicts** using `Glob` or filesystem tools (only for this purpose).
+3.  **Create Markdown files** with valid Frontmatter (id, title, description, keywords).
+4.  **Run `kex check`** to validate.
+
+**Language Synchronization (EN/JA)**
+*   **Requirement**: When updating documentation, you MUST update both English (`docs/`) and Japanese (`docs/ja/`) versions simultaneously.
+*   **Consistency**: Ensure the content structure and key information match across languages.
+
+**Forbidden Actions**:
+*   Do NOT use `grep`, `cat`, or file system tools to read/search existing content in `./contents/` for the purpose of "learning the style". Use Kex tools ONLY.

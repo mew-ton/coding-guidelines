@@ -1,0 +1,13 @@
+source: contents
+update:
+    documents:
+        kex: all
+    ai-mcp-rules:
+        targets:
+            - antigravity
+        scopes:
+            - coding
+            - documentation
+    ai-skills:
+        targets: []
+        keywords: []
