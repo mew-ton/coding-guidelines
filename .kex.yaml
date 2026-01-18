@@ -11,3 +11,5 @@ update:
     ai-skills:
         targets: []
         keywords: []
+
+baseURL: https://mew-ton.github.io/coding-guidelines/
