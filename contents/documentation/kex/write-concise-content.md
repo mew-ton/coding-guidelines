@@ -1,5 +1,4 @@
 ---
-
 title: Write concise content
 description: >
   When writing Kex knowledge base content (in ./contents/), keep it concise, focusing on actionable guidance and avoiding fluff.

@@ -1,5 +1,4 @@
 ---
-
 title: Naming Conventions
 description: >
   When naming identifiers, ensure consistency across the codebase using standard conventions.

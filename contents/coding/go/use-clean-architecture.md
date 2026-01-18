@@ -1,5 +1,4 @@
 ---
-
 title: Use Clean Architecture
 description: >
   When structuring Go projects, organize code into Clean Architecture layers for separation of concerns and testability.

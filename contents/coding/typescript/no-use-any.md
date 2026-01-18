@@ -1,5 +1,4 @@
 ---
-
 title: Avoid using the any type
 description: >
   When writing Typescript code, enforce strict type safety by avoiding the 'any' type.

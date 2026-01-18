@@ -1,5 +1,4 @@
 ---
-
 title: Use BDD-style test naming
 description: >
   When writing test descriptions, enforce BDD-style naming with "it should" or "it must".

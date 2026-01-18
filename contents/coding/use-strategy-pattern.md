@@ -2,7 +2,6 @@
 title: Replace Enum Switching with Strategy Pattern
 description: >
   When you encounter a `switch` statement on an `enum`, refactor it to the Strategy Pattern to comply with the Open/Closed Principle.
-status: adopted
 keywords:
   - design-pattern
   - strategy

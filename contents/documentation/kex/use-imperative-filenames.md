@@ -1,5 +1,4 @@
 ---
-
 title: Use imperative filenames
 description: >
   When naming Kex knowledge base files (in ./contents/), use imperative, action-oriented kebab-case names.
