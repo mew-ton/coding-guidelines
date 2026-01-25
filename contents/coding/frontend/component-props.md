@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Component Props Naming and Structure
 description: >
   Name component props like HTML attributes (e.g. disabled, checked). Prefer passing primitive values over complex objects to decouple components.

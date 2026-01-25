@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Strict Async/Await Usage
 description: >
   Always use async/await instead of .then().catch() chains for consistency and better error handling semantics.

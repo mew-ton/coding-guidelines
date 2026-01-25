@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Comments should explain WHY, not WHAT
 description: >
   Write comments that provide context and rationale, rather than duplicating the code's intent which should be self-evident.

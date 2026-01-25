@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Use Uppercase SQL Keywords
 description: >
   Write SQL keywords (SELECT, FROM, WHERE) in uppercase to distinguish them from table and column names.

@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Prefer Table-Driven Tests
 description: >
   Standardize on the idiomatic Go pattern of using a slice of test cases to run the same logic against different inputs/outputs.

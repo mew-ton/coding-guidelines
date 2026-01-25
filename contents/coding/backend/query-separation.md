@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Separate Queries from Handlers
 description: >
   Move data access logic (SQL/ORM queries) out of HTTP Handlers and into a Repository or Query Service layer.

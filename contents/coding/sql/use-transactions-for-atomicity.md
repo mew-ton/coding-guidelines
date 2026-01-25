@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Use Transactions for Atomicity
 description: >
   Wrap multiple related write operations (INSERT/UPDATE/DELETE) in a transaction to ensure data integrity.

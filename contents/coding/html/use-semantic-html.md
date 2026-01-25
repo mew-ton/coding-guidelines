@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Use Semantic HTML
 description: >
   Use Semantic HTML elements (article, section, nav) instead of generic `div` soup. explicit `role` attributes are an acceptable exception.

@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Folder Structure
 description: >
   When organizing Kex knowledge base files (in ./contents/), mirror the project's directory structure to provide implicit scope context.

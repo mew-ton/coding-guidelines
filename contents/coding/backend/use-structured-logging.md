@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Use Structured Logging
 description: >
   Output logs in structured JSON format and include context (TraceID) to ensure system observability and debuggability.

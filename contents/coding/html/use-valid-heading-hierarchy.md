@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Use Valid Heading Hierarchy
 description: >
   Structure pages logically with h1 through h6. Do not skip levels, and use only one h1 per page.

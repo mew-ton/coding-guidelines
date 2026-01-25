@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Prefer For-Of Loops over Array Methods
 description: >
   Use `for-of` loops for iteration to improve performance and debugging experience. `forEach` is strictly banned.

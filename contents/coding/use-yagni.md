@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Avoid Unnecessary Features (YAGNI)
 description: >
   Do not add functionality until it is deemed necessary. "You Ain't Gonna Need It".

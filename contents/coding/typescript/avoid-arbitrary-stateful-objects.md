@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Avoid Arbitrary Stateful Objects
 description: >
   Do not indiscriminately create objects that hold mutable state. Prefer stateless functions and immutable data. Use established patterns (Factory/Builder) when state is necessary.

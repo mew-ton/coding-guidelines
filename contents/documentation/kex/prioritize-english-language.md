@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Prioritize English language
 description: >
   When writing content for the Kex knowledge base (in ./contents/), use English as the primary language to maximize accessibility.

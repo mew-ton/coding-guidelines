@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Prefer Pure Components
 description: >
   When building UI components, prefer pure "Props-In / DOM+Events-Out" behavior to ensure testability and reusability.

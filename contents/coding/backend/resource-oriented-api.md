@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Design Resource-Oriented APIs
 description: >
   Use nouns (resources) in REST API paths instead of verbs. Use HTTP methods to define actions.

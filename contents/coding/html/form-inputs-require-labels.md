@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Form Inputs Require Labels
 description: >
   All form inputs must have an associated label element (via for/id or nesting) or aria-label for screen reader accessibility.

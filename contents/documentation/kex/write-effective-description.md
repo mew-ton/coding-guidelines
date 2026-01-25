@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Write Effective Descriptions
 description: >
   When writing descriptions for Kex knowledge base documents (in ./contents/), use a "When X, do Y" format to optimize for AI retrieval.

@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Prefer Plain Objects over Classes
 description: >
   Avoid class usage because it hinders Tree-Shaking and Minification. Use Plain Objects for data and pure functions for behavior.

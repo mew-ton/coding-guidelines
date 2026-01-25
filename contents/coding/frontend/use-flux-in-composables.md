@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Use Flux Architecture in Composables
 description: >
   Avoid "God Composables" by decomposing logic into distinct roles: State Providers, Actions, Getters, and Utils.

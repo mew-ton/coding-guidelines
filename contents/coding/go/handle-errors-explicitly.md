@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Explicit Error Handling
 description: >
   When writing Go code, explicit error handling is required to prevent silent failures.

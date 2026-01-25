@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Use Utility Types for DRY Types
 description: >
   Instead of duplicating interfaces, use Pick, Omit, or Partial to derive types and keep them in sync.

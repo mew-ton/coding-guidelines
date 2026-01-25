@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Prioritize Unit Testing and Refactor for Testability
 description: >
   Build a solid Test Pyramid by prioritizing fast, isolated Unit Tests. Refactor complex code into smaller, testable functions (using internal directories/packages) to achieve this.

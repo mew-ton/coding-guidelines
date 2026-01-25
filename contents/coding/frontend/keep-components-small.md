@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Keep Components Small
 description: >
   Aim to keep frontend components under approximately 100 lines to maintain readability and encourage decomposition.

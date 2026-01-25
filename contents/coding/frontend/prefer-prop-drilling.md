@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Prefer Prop Drilling over Implicit Context
 description: >
   Favor explicit data passing (Prop Drilling) over implicit mechanisms like Provide/Inject or Global State to maintain clear data flow.

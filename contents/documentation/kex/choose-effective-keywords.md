@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Choose effective keywords (3 Dimensions)
 description: >
   When defining metadata for Kex knowledge base documents (in ./contents/), select keywords across Object, Symptom, and Concept dimensions.

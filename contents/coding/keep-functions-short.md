@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Keep functions short by top-down decomposition
 description: >
   When implementing logic, keep functions short by applying top-down decomposition using comments-first development.

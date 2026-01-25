@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Include valid frontmatter
 description: >
   When creating Kex knowledge base documents (in ./contents/), include valid YAML frontmatter with title, description, and keywords.

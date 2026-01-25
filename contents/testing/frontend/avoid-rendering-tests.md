@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Avoid Component Rendering Tests
 description: >
   Minimize reliance on component rendering tests (mounting). Prefer Unit Testing extracted logic. If rendering is needed, mock child components.

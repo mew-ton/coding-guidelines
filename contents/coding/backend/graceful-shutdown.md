@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Implement Graceful Shutdown
 description: >
   Ensure servers handle termination signals (SIGTERM) correctly to stop accepting new requests and finish active ones before exiting.

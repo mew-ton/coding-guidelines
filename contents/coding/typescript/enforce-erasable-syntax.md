@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Enforce Erasable Syntax Only
 description: >
   Avoid TypeScript features that emit runtime code (like enum and namespace). Use syntax that can be "erased" to valid JavaScript.

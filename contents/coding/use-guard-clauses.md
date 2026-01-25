@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Use Guard Clauses (Early Return)
 description: >
   Reduce complexity by checking failure conditions early and returning. Keep the "Happy Path" de-nested at the bottom of the function.

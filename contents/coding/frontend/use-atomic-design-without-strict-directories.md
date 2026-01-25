@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Component Design (Atomic Principles)
 description: >
   When designing frontend components, apply Atomic Design principles to component granularity without enforcing strict directory nesting.

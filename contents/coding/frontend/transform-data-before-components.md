@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Transform Data Before Passing to Components
 description: >
   Ensure components receive "display-ready" data. Perform filtering, sorting, and reshaping in the API or Logic layer, not in the Component.

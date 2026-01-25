@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Images Require Alt Text
 description: >
   All img tags must have an alt attribute. Use empty alt="" for decorative images, but never omit the attribute.

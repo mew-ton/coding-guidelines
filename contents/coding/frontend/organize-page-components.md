@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Organize Page-Specific Components
 description: >
   When creating components used only by a specific page, place them in a `components/pages/[PageName]/` directory to prevent global namespace pollution.

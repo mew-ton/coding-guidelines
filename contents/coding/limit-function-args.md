@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Limit Function Arguments
 description: >
   Limit the number of function arguments to a maximum of 3. Use an options object or configuration struct for more complex inputs.

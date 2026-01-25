@@ -1,4 +1,5 @@
 ---
+type: constraint
 title: Avoid Global State and init()
 description: >
   Do not use package-level variables or init() functions for state. Use explicit dependency injection.

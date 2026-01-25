@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Define Types Before Implementation
 description: >
   Define your data structures and interfaces first to establish a specification. Implement logic only after the contract is clear.

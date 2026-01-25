@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Use Arrange-Act-Assert (AAA)
 description: >
   Structure test bodies to clearly separate setup, execution, and verification phases.

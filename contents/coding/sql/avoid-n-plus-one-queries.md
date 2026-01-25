@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Avoid N+1 Queries
 description: >
   Be aware of and prevent N+1 query problems by using eager loading (JOINs) or batching queries when fetching related data.

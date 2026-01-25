@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Boolean Naming Conventions
 description: >
   Use verb prefixes (is, has, can, should) for boolean variables and functions to ensure they read like questions or statements.

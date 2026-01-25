@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Hoist Side Effects to Parents
 description: >
   When handling side effects (API calls, Routing, State mutation), hoist them to "Container" or "Page" components to keep leaf components pure.

@@ -1,4 +1,5 @@
 ---
+type: indicator
 title: Colocate Related Code
 description: >
   Keep related files (tests, styles, utils, types) close to where they are used. Avoid global folders unless the code is truly global.
