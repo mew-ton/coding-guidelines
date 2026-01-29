@@ -9,6 +9,13 @@ keywords:
   - promise
   - readability
   - error-handling
+extensions:
+  - ts
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

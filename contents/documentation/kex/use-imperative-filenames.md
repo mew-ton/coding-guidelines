@@ -9,6 +9,9 @@ keywords:
   - instruction
   - imperative
   - file
+extensions:
+  - md
+
 ---
 
 ## Summary

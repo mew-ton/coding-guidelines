@@ -7,6 +7,9 @@ keywords:
   - go
   - error-handling
   - robustness
+extensions:
+  - go
+
 ---
 
 ## Summary

@@ -7,6 +7,9 @@ keywords:
   - hydration
   - performance
   - islands-architecture
+extensions:
+  - astro
+
 ---
 
 ## Summary

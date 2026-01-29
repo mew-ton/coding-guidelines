@@ -9,6 +9,13 @@ keywords:
   - a11y
   - forms
   - labels
+extensions:
+  - html
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

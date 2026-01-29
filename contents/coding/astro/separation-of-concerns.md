@@ -7,6 +7,7 @@ keywords:
   - clean-code
   - testing
   - logic-separation
+
 ---
 
 ## Summary

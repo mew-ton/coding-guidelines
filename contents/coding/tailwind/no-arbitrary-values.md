@@ -7,6 +7,15 @@ keywords:
   - consistency
   - design-system
   - maintenance
+extensions:
+  - html
+  - css
+  - ts
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

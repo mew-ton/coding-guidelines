@@ -9,6 +9,13 @@ keywords:
   - seo
   - headings
   - structure
+extensions:
+  - html
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

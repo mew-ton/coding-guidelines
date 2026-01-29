@@ -10,6 +10,13 @@ keywords:
   - enum
   - namespace
   - bundle-size
+extensions:
+  - ts
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

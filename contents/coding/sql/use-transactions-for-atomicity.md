@@ -9,6 +9,9 @@ keywords:
   - atomicity
   - integrity
   - database
+extensions:
+  - sql
+
 ---
 
 ## Summary

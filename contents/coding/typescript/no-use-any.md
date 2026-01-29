@@ -13,6 +13,13 @@ sources:
     url: https://biomejs.dev/linter/rules/no-explicit-any/
   - name: TypeScript (noImplicitAny)
     url: https://www.typescriptlang.org/tsconfig/#noImplicitAny
+extensions:
+  - ts
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

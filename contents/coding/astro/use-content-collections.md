@@ -7,6 +7,9 @@ keywords:
   - content-collections
   - type-safety
   - validation
+extensions:
+  - astro
+
 ---
 
 ## Summary

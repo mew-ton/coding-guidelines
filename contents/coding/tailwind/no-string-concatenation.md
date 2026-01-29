@@ -7,6 +7,15 @@ keywords:
   - class-names
   - static-analysis
   - purge
+extensions:
+  - html
+  - css
+  - ts
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

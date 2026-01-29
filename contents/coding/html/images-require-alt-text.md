@@ -11,6 +11,13 @@ keywords:
   - alt
   - seo
   - screen-reader
+extensions:
+  - html
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

@@ -8,6 +8,15 @@ keywords:
   - best-practice
   - utility-first
   - maintainability
+extensions:
+  - html
+  - css
+  - ts
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

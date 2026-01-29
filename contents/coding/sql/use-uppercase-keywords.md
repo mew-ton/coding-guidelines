@@ -8,6 +8,9 @@ keywords:
   - readability
   - style
   - formatting
+extensions:
+  - sql
+
 ---
 
 ## Summary

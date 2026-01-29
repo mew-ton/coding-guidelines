@@ -7,6 +7,13 @@ keywords:
   - specificity
   - selectors
   - reusability
+extensions:
+  - css
+  - scss
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

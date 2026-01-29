@@ -10,6 +10,13 @@ keywords:
   - functional
   - singleton
   - side-effects
+extensions:
+  - ts
+  - tsx
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

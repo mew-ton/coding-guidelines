@@ -9,6 +9,9 @@ keywords:
   - metadata
   - id
   - description
+extensions:
+  - md
+
 ---
 
 ## Summary

@@ -8,6 +8,9 @@ keywords:
   - structure
   - hierarchy
   - folder
+extensions:
+  - md
+
 ---
 
 ## Summary

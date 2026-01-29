@@ -7,6 +7,13 @@ keywords:
   - specificity
   - cascade
   - maintainability
+extensions:
+  - css
+  - scss
+  - vue
+  - svelte
+  - astro
+
 ---
 
 ## Summary

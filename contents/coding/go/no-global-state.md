@@ -10,6 +10,9 @@ keywords:
   - init
   - dependency-injection
   - testing
+extensions:
+  - go
+
 ---
 
 ## Summary

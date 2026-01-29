@@ -9,6 +9,9 @@ keywords:
   - ai
   - llm
   - globalization
+extensions:
+  - md
+
 ---
 
 ## Summary
