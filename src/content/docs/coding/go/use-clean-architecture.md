@@ -1,0 +1,55 @@
+---
+skill: true
+title: Use Clean Architecture
+description: Guides organization of Go projects into Clean Architecture layers (domain, usecase, interface, infrastructure) for testability and separation of concerns. Use when starting a new Go service or reviewing the overall package structure of an existing one. Do not use for small scripts, CLIs, or single-purpose tools where full layering adds overhead without benefit.
+skill-metadata:
+  type: indicator
+  keywords: "architecture, clean-architecture, go, layering"
+---
+
+## Summary
+
+Adopt Clean Architecture to organize code into concentric layers, ensuring that dependencies only point inward. This separates business logic from external concerns like the CLI, Database, or API.
+
+## Rationale
+
+-   **Separation of Concerns**: Business logic is independent of UI, Database, and Frameworks.
+-   **Testability**: Business rules can be tested without external elements.
+-   **Maintainability**: Changes in external libraries or tools do not affect the core logic.
+
+## Guidance
+
+Organize your project into the following directory structure:
+
+### 1. Domain (`internal/domain`)
+Contains **Entities** (Enterprise Business Rules) and **Repository Interfaces**.
+-   **Dependencies**: None.
+-   **Content**: Pure Go structs and interfaces.
+
+### 2. Use Cases (`internal/usecase`)
+Contains **Application Business Rules**.
+-   **Dependencies**: `domain`.
+-   **Content**: Interactors that orchestrate the flow of data to and from the domain entities.
+
+### 3. Interfaces (`internal/interfaces`)
+Contains **Interface Adapters**.
+-   **Dependencies**: `usecase`.
+-   **Content**: Entry points and converters.
+    -   `cli`: CLI commands.
+    -   `http` / `mcp`: Server handlers.
+
+### Thin Interface Layer
+The Interface layer (Controllers, Presenters, Gateways) should be **thin**.
+-   It should **only** handle transport logic (CLI flags, HTTP decoding, JSON-RPC unmarshalling).
+-   It should **never** contain business rules (e.g., validation, complex mapping, deriving logic).
+-   It should delegate all business logic to the Use Case layer.
+
+### 4. Infrastructure (`internal/infrastructure`)
+Contains **Frameworks & Drivers**.
+-   **Dependencies**: `domain` (implements interfaces defined there).
+-   **Content**: Database implementations, File System access, Configuration loading.
+
+## dependency Rule
+
+Source code dependencies must point only **inward**, toward higher-level policies. Inner circles must know nothing about outer circles.
+```
