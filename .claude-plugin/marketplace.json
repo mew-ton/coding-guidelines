@@ -1,0 +1,17 @@
+{
+  "name": "coding-guidelines",
+  "owner": {
+    "name": "mew-ton"
+  },
+  "metadata": {
+    "description": "Coding guidelines as Claude Code skills",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "coding-guidelines",
+      "source": "./",
+      "description": "Coding guidelines as Claude Code skills"
+    }
+  ]
+}
